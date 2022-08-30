@@ -1,0 +1,2 @@
+2022-08-30 21:35:14.6075 ERROR Object sent from client is null. Controller: Link, action: Create
+2022-08-30 21:35:48.4644 ERROR Object sent from client is null. Controller: Link, action: Create
