@@ -6,9 +6,9 @@ using ShortLink.Service.Interfaces;
 
 namespace ShortLink.Service.Services;
 
-public class TeacherRepository : RepositoryBase<LinkEntity>, ILinkRepository
+public class UrlRepository : RepositoryBase<LinkEntity>, ILinkRepository
 {
-    public TeacherRepository(RepositoryContext repositoryContext) : base(repositoryContext)
+    public UrlRepository(RepositoryContext repositoryContext) : base(repositoryContext)
     {
     }
 
