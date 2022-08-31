@@ -29,7 +29,7 @@ public class RepositoryManager : IRepositoryManager
         get
         {
             if (_teacherRepository is null)
-                _teacherRepository = new TeacherRepository( _repositoryContext);
+                _teacherRepository = new UrlRepository( _repositoryContext);
             return _teacherRepository;
         }
     }
