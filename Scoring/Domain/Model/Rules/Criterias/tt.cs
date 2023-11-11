@@ -13,9 +13,18 @@ namespace Domain.Model.Rules.Criterias
 
     public class WorkingExperience : Specification<ApplicantCondition>
     {
+        public TimeSpan _timeSpan { get; private set; }
+
+        public WorkingExperience(TimeSpan timeSpan)
+        {
+            _timeSpan = timeSpan;
+        }
+
         public override bool IsSatisfiedBy(ApplicantCondition value)
         {
-            return false;
+            if (value.FireDate.Add(_timeSpan) < DateTime.Now)
+                return false;
+            return true;
         }
     }
 }

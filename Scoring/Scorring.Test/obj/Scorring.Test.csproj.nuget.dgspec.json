@@ -4,14 +4,14 @@
     "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj": {}
   },
   "projects": {
-    "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj": {
+    "F:\\IlmazHolding\\Scoring\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj",
-        "projectName": "Scorring.Test",
-        "projectPath": "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj",
+        "projectUniqueName": "F:\\IlmazHolding\\Scoring\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "F:\\IlmazHolding\\Scoring\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
-        "outputPath": "F:\\IlmazHolding\\Scoring\\Scorring.Test\\obj\\",
+        "outputPath": "F:\\IlmazHolding\\Scoring\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,7 +41,72 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj",
+        "projectName": "Scorring.Test",
+        "projectPath": "F:\\IlmazHolding\\Scoring\\Scorring.Test\\Scorring.Test.csproj",
+        "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
+        "outputPath": "F:\\IlmazHolding\\Scoring\\Scorring.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\a.hamidi\\Downloads\\Stimulsoft.Reports.Ultimate-Designer.2023.1.1 (1)\\Stimulsoft.Reports.Ultimate-Designer.2023.1.1\\Crack\\Crack\\Libs\\Reports.NetCore": {},
+          "http://192.168.2.164/NugetServer/Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\IlmazHolding\\Scoring\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\IlmazHolding\\Scoring\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
@@ -61,6 +126,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.6.1, )"
             }
           },
           "imports": [
