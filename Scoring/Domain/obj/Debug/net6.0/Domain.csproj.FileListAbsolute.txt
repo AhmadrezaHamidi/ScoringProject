@@ -1,0 +1,12 @@
+F:\IlmazHolding\Scoring\Domain\bin\Debug\net6.0\Domain.deps.json
+F:\IlmazHolding\Scoring\Domain\bin\Debug\net6.0\Domain.dll
+F:\IlmazHolding\Scoring\Domain\bin\Debug\net6.0\Domain.pdb
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.dll
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\refint\Domain.dll
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\Domain.pdb
+F:\IlmazHolding\Scoring\Domain\obj\Debug\net6.0\ref\Domain.dll

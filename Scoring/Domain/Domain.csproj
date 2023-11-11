@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Model\Rules\Criterias\WorkingExperience.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Model\Rules\Criterias\WorkingExperience.cs" />
+  </ItemGroup>
+
 </Project>
