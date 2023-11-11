@@ -27,4 +27,13 @@ namespace Domain.Model.Rules.Criterias
             return true;
         }
     }
+
+    public class OrganizationGrade : Specification<ApplicantCondition>
+    {
+        public override bool IsSatisfiedBy(ApplicantCondition value)
+        {
+            return false;   
+        }
+    }
+
 }
